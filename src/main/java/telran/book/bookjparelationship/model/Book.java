@@ -17,7 +17,6 @@ import java.util.Set;
 @Entity
 public class Book implements Serializable {
     private static final long serialVersionUID = 6297926166935503683L;
-
     @Id
     String isbn;
     String title;

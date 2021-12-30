@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import telran.book.bookjparelationship.model.Publisher;
 
 import java.util.Set;
 
@@ -15,5 +16,5 @@ public class BookDto {
     String isbn;
     String title;
     Set<AuthorDto> authors;
-    String publisher;
+    Publisher publisher;
 }
